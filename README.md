@@ -1,8 +1,8 @@
-# insaas-ami-build
+# Node Roller
 
 ## The gitlab pipeline will 
 
-* Set default region to AWS eu-west-2. London
+* Set default region in AWS.
 * Pull in the pre-configured runner
 * call the launcher script. (Runs poetry and creats a virt env with deps).
 * Launcher script initialises the AWS environment config. (AWS KEYS from secret storage. Not Vault)
@@ -20,7 +20,7 @@
 
 
 
-## The process works well for the Development environments.
-# Some consideration needs to be made around optimising the secret store. Vault service account would be good.
+
+
 
 

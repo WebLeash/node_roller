@@ -1,4 +1,4 @@
-#!/bin/bash/python
+#!/bin/python
 
 from operator import index
 from pickle import FALSE

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "roller"
+version = "0.1.0"
+description = ""
+authors = ["nathan.stott <nathan.stott@coveainsurance.co.uk>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+boto3 = "^1.23.5"
+poetry = "^1.1.13"
+kubernetes = "^23.6.0"
+DateTime = "^4.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
